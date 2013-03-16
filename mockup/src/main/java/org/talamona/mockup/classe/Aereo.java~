@@ -1,0 +1,27 @@
+package org.talamona.mockup.classe;
+
+/**
+ *
+ * @author luigi
+ */
+public class Aereo {
+	private String matricola;
+	
+
+	public Aereo(String matricola){
+		this.matricola = matricola;
+	}
+	public String getMatricola(){
+		return this.matricola;
+	}
+	public void setMatricola(String matricola){
+		this.matricola = matricola;
+	}
+	public Object leggiRegistroVolo(){
+		return null;
+	}
+	public static void main(String[] args){
+		Aereo a = new Aereo("AZT-1234");
+	}
+	
+}

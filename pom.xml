@@ -11,5 +11,6 @@
         <module>mockup</module>
         <module>patternsMockup</module>
         <module>fowlerRefactoringMockup</module>
+        <module>praticalUnitTestingMockup</module>
     </modules>
 </project>

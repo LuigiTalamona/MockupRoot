@@ -1,0 +1,4 @@
+patternsMockup
+==============
+
+Examples for patterns 

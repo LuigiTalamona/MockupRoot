@@ -1,7 +1,5 @@
 package org.talamona.chapter3.exercise3_11_2;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import static org.testng.Assert.*;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;

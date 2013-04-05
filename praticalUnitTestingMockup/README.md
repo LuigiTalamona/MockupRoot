@@ -1,4 +1,4 @@
 patternsMockup
 ==============
 
-Examples for patterns 
+Examples and exercises from book 'Practical Unit Testing with Mockito and testNG'

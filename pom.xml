@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.talamona</groupId>
   <artifactId>MockupRoot</artifactId>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>MockupRoot</name>
 
@@ -10,6 +10,7 @@
     <connection>scm:git:https://github.com/Bticino-Varese/MockupRoot.git</connection>
     <url>https://github.com/Bticino-Varese/MockupRoot.git</url>
     <developerConnection>scm:git:https://github.com/Bticino-Varese/MockupRoot.git</developerConnection>
+    <tag>HEAD</tag> 	
  </scm>
 <!--
   <scm>

@@ -9,7 +9,7 @@
   <parent>
         <groupId>org.talamona</groupId>
         <artifactId>MockupRoot</artifactId>
-        <version>1.4-SNAPSHOT</version> 
+        <version>1.4</version> 
         <relativePath>../pom.xml</relativePath>
     </parent>
 

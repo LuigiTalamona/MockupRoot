@@ -4,8 +4,16 @@
 
   <groupId>org.talamona</groupId>
   <artifactId>mockup</artifactId>
-  <version>1.0</version>
   <packaging>jar</packaging>
+
+
+  <parent>
+        <groupId>org.talamona</groupId>
+        <artifactId>MockupRoot</artifactId>
+        <version>1.0-SNAPSHOT</version> 
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
 
   <name>Mockup for structural Analisys</name>
   <description>Examples about Structural Analisys - Uncle Bob -</description>

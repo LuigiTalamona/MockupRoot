@@ -1,7 +1,7 @@
 package org.talamona.conditionals.polymorphism.after;
 
 
-class Engineer extends EmployeeType {
+public class Engineer extends EmployeeType {
 
     public Engineer() {
         super();

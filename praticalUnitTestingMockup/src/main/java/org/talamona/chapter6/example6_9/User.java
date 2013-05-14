@@ -12,7 +12,7 @@ public class User {
     private String name, secondName;
 
     public User() {
-        this.phones = new <String>ArrayList();
+        this.phones = new ArrayList<String>();
     }
 
 

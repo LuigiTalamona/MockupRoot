@@ -1,0 +1,6 @@
+Rental Record for Luigi
+	Host	30.0
+	Apocalypse Now	6.5
+	Bambi	4.5
+Total amount is 41.0
+Your points are 4

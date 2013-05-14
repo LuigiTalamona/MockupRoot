@@ -4,7 +4,7 @@ package org.talamona.conditionals.polymorphism.after;
  *
  * @author luigi
  */
-abstract class EmployeeType {
+public abstract class EmployeeType {
     
     public enum Type{
         ENGINEER, SALESMAN, MANAGER;

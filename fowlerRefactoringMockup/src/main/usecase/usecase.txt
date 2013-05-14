@@ -1,0 +1,19 @@
+**********************************************************************
+Scenario:   Noleggio videocassette
+
+Caso d'uso: calcolare e compilare un report dei costi 
+            fatturati ad un dato cliente.
+**********************************************************************
+
+1) Il sistema stabilisce quanti video sono stati noleggiati da un dato cliente,
+   e per quanto tempo.
+
+2)  Il sistema calcola i costi, che dipendono dai tempi di noleggio e dal tipo di
+    video
+        Tipi di video:
+            a) Standard
+            b) Bambini
+            c) News
+
+3)  La dichiarazione calcola anche i punti affittuario frequenti, 
+    che variano a seconda che il film è una nuova release (???)

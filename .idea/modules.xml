@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MockupRoot.iml" filepath="$PROJECT_DIR$/MockupRoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cleanCodeMockup/cleanCodeMockup.iml" filepath="$PROJECT_DIR$/cleanCodeMockup/cleanCodeMockup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fowlerRefactoringMockup/fowlerMockup.iml" filepath="$PROJECT_DIR$/fowlerRefactoringMockup/fowlerMockup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mockup/mockup.iml" filepath="$PROJECT_DIR$/mockup/mockup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patternsMockup/patternsMockup.iml" filepath="$PROJECT_DIR$/patternsMockup/patternsMockup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/praticalUnitTestingMockup/practicalTestingUnitMockup.iml" filepath="$PROJECT_DIR$/praticalUnitTestingMockup/practicalTestingUnitMockup.iml" />
+    </modules>
+  </component>
+</project>
+

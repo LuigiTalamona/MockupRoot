@@ -8,9 +8,9 @@
   <name>MockupRoot</name>
 
   <scm>
-    <connection>scm:git:https://github.com/MockupRoot.git</connection>
-    <url>https://github.com/MockupRoot.git</url>
-    <developerConnection>scm:git:https://github.com/MockupRoot.git</developerConnection>
+    <connection>scm:git:https://github.com/Bticino-Varese/MockupRoot.git</connection>
+    <url>https://github.com/Bticino-Varese/MockupRoot.git</url>
+    <developerConnection>scm:git:https://github.com/Bticino-Varese/MockupRoot.git</developerConnection>
  </scm>
 <!--
   <scm>

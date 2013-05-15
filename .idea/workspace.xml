@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/chapter1/refactor3/ChildrenPrice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/chapter1/refactor2/CustomerText.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/chapter1/refactor3/CustomerText.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/chapter1/refactor2/Movie.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/chapter1/refactor3/Movie.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/chapter1/refactor2/MovieRental.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/chapter1/refactor3/MovieRental.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/test/java/org/talamona/chapter1/refactor2/MovieRentalNGTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/test/java/org/talamona/chapter1/refactor3/MovieRentalNGTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/chapter1/refactor3/NewReleasePrice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/chapter1/refactor3/Price.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/literatePrimes/PrintPrimes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/literatePrimes/PrintPrimesRefactored.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/chapter1/refactor3/RegularPrice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/chapter1/refactor2/Rental.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/chapter1/refactor3/Rental.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/patternsMockup/src/main/java/org/talamona/patternsmockup/adapter/Sorter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/patternsMockup/src/main/java/org/talamona/patternsmockup/adapter/SorterAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/patternsMockup/src/test/java/org/talamona/patternsmockup/adapter/SorterAdapterTestNG.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/test/java/org/talamona/chapter1/refactor2/StatementNGTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/test/java/org/talamona/chapter1/refactor3/StatementNGTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cleanCodeMockup/cleanCodeMockup.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/conditionals/polymorphism/after/EmployeeType.java" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/conditionals/polymorphism/after/EmployeeType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/conditionals/polymorphism/after/Engineer.java" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/conditionals/polymorphism/after/Engineer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/praticalUnitTestingMockup/src/main/java/org/talamona/chapter6/example6_9/User.java" afterPath="$PROJECT_DIR$/praticalUnitTestingMockup/src/main/java/org/talamona/chapter6/example6_9/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fowlerRefactoringMockup/pom.xml" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockup/pom.xml" afterPath="$PROJECT_DIR$/mockup/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternsMockup/pom.xml" afterPath="$PROJECT_DIR$/patternsMockup/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/praticalUnitTestingMockup/pom.xml" afterPath="$PROJECT_DIR$/praticalUnitTestingMockup/pom.xml" />
-    </list>
+    <list default="true" id="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" name="Default" comment="" />
     <ignored path="MockupRoot.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368523030242" ignored="false" />

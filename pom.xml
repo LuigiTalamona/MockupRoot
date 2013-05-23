@@ -23,12 +23,10 @@
 
 
     <modules>
-<!--
         <module>mockup</module>
         <module>patternsMockup</module>
         <module>fowlerRefactoringMockup</module>
         <module>praticalUnitTestingMockup</module>
--->
         <module>cleanCodeMockup</module>
     </modules>
     <build>

@@ -1,25 +1,26 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>org.talamona</groupId>
-  <artifactId>MockupRoot</artifactId>
-  <version>1.8-SNAPSHOT</version>
-  <packaging>pom</packaging>
-  <name>MockupRoot</name>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.talamona</groupId>
+    <artifactId>MockupRoot</artifactId>
+    <version>1.8-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>MockupRoot</name>
 
-  <scm>
-    <connection>scm:git:https://github.com/Bticino-Varese/MockupRoot.git</connection>
-    <url>https://github.com/Bticino-Varese/MockupRoot.git</url>
-    <developerConnection>scm:git:https://github.com/Bticino-Varese/MockupRoot.git</developerConnection>
- </scm>
-<!--
-  <scm>
-    <connection>scm:git:https://github.com/username/project.git</connection>
-    <url>scm:git:https://github.com/username/project.git</url>
-    <developerConnection>scm:git:https://github.com/username/project.git</developerConnection>
- </scm>
--->
+    <scm>
+        <connection>scm:git:https://github.com/Bticino-Varese/MockupRoot.git</connection>
+        <url>https://github.com/Bticino-Varese/MockupRoot.git</url>
+        <developerConnection>scm:git:https://github.com/Bticino-Varese/MockupRoot.git</developerConnection>
+    </scm>
+    <!--
+      <scm>
+        <connection>scm:git:https://github.com/username/project.git</connection>
+        <url>scm:git:https://github.com/username/project.git</url>
+        <developerConnection>scm:git:https://github.com/username/project.git</developerConnection>
+     </scm>
+    -->
 
-  <!-- scm:git:https://github.com/path_to_repository 	 -->
+    <!-- scm:git:https://github.com/path_to_repository 	 -->
 
 
     <modules>
@@ -40,6 +41,47 @@
                     <target>1.6</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.6.2.201302030002</version>
+                <executions>
+                    <execution>
+                        <id>prepare-agent</id>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>report</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>check</id>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                        <configuration>
+                            <check>
+                                <classRatio>100</classRatio>
+                                <instructionRatio>90</instructionRatio>
+                                <methodRatio>95</methodRatio>
+                                <branchRatio>85</branchRatio>
+                                <complexityRatio>85</complexityRatio>
+                                <lineRatio>90</lineRatio>
+                            </check>
+                        </configuration>
+                    </execution>
+                </executions>
+
+
+            </plugin>
+
         </plugins>
     </build>
+
+
 </project>

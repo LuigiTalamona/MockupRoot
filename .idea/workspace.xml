@@ -5,27 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/refactoringSerialDate/org/jfree/date/BobsSerialDateTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/extractmethod/BaseExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/extractmethod/BaseExampleClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/test/java/org/talamona/extractmethod/BaseExampleClassTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/N2ChooseNamesAtAbstractionLevel/BetterModem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/Day.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/DayDate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/DayDateFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/refactoringSerialDate/org/jfree/date/DayTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/G30FunctionsShouldDoOneThing/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/N1ChooseDescriptiveNames/Example.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/N1ChooseDescriptiveNames/ExampleRevised.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/N2ChooseNamesAtAbstractionLevel/Modem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/extractmethod/Order.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/G30FunctionsShouldDoOneThing/PaymentsManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/extractmethod/RefactoredExampleClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/SpreadDate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/SpreadsheetDateFactory.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/RelativeDayOfWeekRule.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/refactoringSerialDate/org/jfree/date/BobsSerialDateTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/refactoringSerialDate/org/jfree/date/DatePackageTests.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/refactoringSerialDate/org/jfree/date/SerialDateTests.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/refactoringSerialDate/org/jfree/date/SpreadsheetDateTests.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/AnnualDateRule.java" afterPath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/AnnualDateRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/DayAndMonthRule.java" afterPath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/DayAndMonthRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/DayOfWeekInMonthRule.java" afterPath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/DayOfWeekInMonthRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/EasterSundayRule.java" afterPath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/EasterSundayRule.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/SerialDate.java" afterPath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/SerialDate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fowlerRefactoringMockup/fowlerMockup.iml" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/fowlerMockup.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockup/mockup.iml" afterPath="$PROJECT_DIR$/mockup/mockup.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cleanCodeMockup/pom.xml" afterPath="$PROJECT_DIR$/cleanCodeMockup/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fowlerRefactoringMockup/pom.xml" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockup/pom.xml" afterPath="$PROJECT_DIR$/mockup/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternsMockup/pom.xml" afterPath="$PROJECT_DIR$/patternsMockup/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/praticalUnitTestingMockup/pom.xml" afterPath="$PROJECT_DIR$/praticalUnitTestingMockup/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/SerialDateUtilities.java" afterPath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/SerialDateUtilities.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/refactoringSerialDate/org/jfree/date/SerialDateUtilitiesTests.java" afterPath="$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/refactoringSerialDate/org/jfree/date/SerialDateUtilitiesTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/SpreadsheetDate.java" afterPath="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/SpreadsheetDate.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MockupRoot.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1369725406892" ignored="false" />
+    <file path="/Dummy.txt" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370938820231" ignored="false" />
     <file path="/PrintPrimesRefactored.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368523116192" ignored="false" />
     <file path="/PrintPrimes.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368798191763" ignored="false" />
     <file path="/Sql.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368799596083" ignored="false" />
     <file path="/AbstractSql.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368953217324" ignored="false" />
     <file path="/CreateSql.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368804744939" ignored="false" />
-    <file path="/fragment.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1369491243548" ignored="false" />
+    <file path="/fragment.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370519921159" ignored="false" />
     <file path="/InsertSql.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368960422792" ignored="false" />
     <file path="/SelectWithCriteriaSql.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368955865802" ignored="false" />
     <file path="/SelectSqlTestNG.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368882370028" ignored="false" />
@@ -44,10 +65,46 @@
     <file path="/USVacationPolicy.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1369136071327" ignored="false" />
     <file path="/EUVacationPolicy.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1369136083215" ignored="false" />
     <file path="/StrokeTests.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1369303167744" ignored="false" />
-    <file path="/pom.xml" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1369485386542" ignored="false" />
+    <file path="/pom.xml" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370943648742" ignored="false" />
     <file path="/BobsSerialDateTest.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1369489671956" ignored="false" />
-    <file path="/SerialDate.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1369492475179" ignored="false" />
+    <file path="/SerialDate.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370179173174" ignored="false" />
     <file path="/SerialDateOriginal.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1369491650965" ignored="false" />
+    <file path="/DayDate.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370186598171" ignored="false" />
+    <file path="/SpreadsheetDate.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370179575318" ignored="false" />
+    <file path="/NewSpreadsheetDate.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1369733767385" ignored="false" />
+    <file path="/SpreadDayDate.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1369733874057" ignored="false" />
+    <file path="/SpreadDate.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370178442340" ignored="false" />
+    <file path="/DayDateFactory.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1369751680138" ignored="false" />
+    <file path="/SpreadsheetDateFactory.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1369754413492" ignored="false" />
+    <file path="/Day.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370168549368" ignored="false" />
+    <file path="/DayTest.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370184825059" ignored="false" />
+    <file path="/AnnualDateRule.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370177845738" ignored="false" />
+    <file path="/DayAndMonthRule.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370177882703" ignored="false" />
+    <file path="/DayOfWeekInMonthRule.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370178053191" ignored="false" />
+    <file path="/RelativeDayOfWeekRule.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370178972226" ignored="false" />
+    <file path="/SerialDateUtilities.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370179343350" ignored="false" />
+    <file path="/README.txt" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370265574368" ignored="false" />
+    <file path="/Employee.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370266279914" ignored="false" />
+    <file path="/PaymentsManager.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370267167129" ignored="false" />
+    <file path="/Example.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370330252062" ignored="false" />
+    <file path="/ExampleRevised.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370331010504" ignored="false" />
+    <file path="/Modem.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370331384663" ignored="false" />
+    <file path="/BetterModem.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370331506351" ignored="false" />
+    <file path="/BaseExampleClass.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370511943794" ignored="false" />
+    <file path="/Order.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370511350537" ignored="false" />
+    <file path="/BaseExampleClassTest.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370522475825" ignored="false" />
+    <file path="/RefactoredExampleClass.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370523138677" ignored="false" />
+    <file path="$PROJECT_DIR$/../databaseManagement/pom.xml" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370943648742" ignored="false" />
+    <file path="$PROJECT_DIR$/../databaseManagement/src/main/resources/master.xml" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370939027725" ignored="false" />
+    <file path="/master.xml" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370939014519" ignored="false" />
+    <file path="$PROJECT_DIR$/../databaseManagement/src/main/resources/liquibase.properties" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370940353723" ignored="false" />
+    <file path="$PROJECT_DIR$/../databaseManagement/src/main/resources/script" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370942246996" ignored="false" />
+    <file path="/script" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370941156319" ignored="false" />
+    <file path="$PROJECT_DIR$/../databaseManagement/src/main/resources/db.changelog-master.xml" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370953727744" ignored="false" />
+    <file path="/db.changelog-master.xml" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370944220655" ignored="false" />
+    <file path="$PROJECT_DIR$/../databaseManagement/src/main/resources/db.changelog-storedProcs.xml" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370954201432" ignored="false" />
+    <file path="/db.changelog-storedProcs.xml" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370954185547" ignored="false" />
+    <file path="$PROJECT_DIR$/../databaseManagement/src/main/resources/db.changelog.xml" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370953341965" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,50 +170,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SerialDate.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/SerialDate.java">
+      <file leaf-file-name="RefactoredExampleClass.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/extractmethod/RefactoredExampleClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="699" column="48" selection-start="22239" selection-end="22258" vertical-scroll-proportion="0.30805686">
-              <folding>
-                <element signature="e#0#32783#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="method#stringToWeekdayCode#0;class#SerialDate#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="59" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.0">
+            <state line="41" column="0" selection-start="877" selection-end="877" vertical-scroll-proportion="0.20760697">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SerialDateTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/refactoringSerialDate/org/jfree/date/SerialDateTests.java">
+      <file leaf-file-name="BaseExampleClassTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/test/java/org/talamona/extractmethod/BaseExampleClassTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="192" column="89" selection-start="6412" selection-end="6412" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BobsSerialDateTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/refactoringSerialDate/org/jfree/date/BobsSerialDateTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="338" column="39" selection-start="15223" selection-end="15242" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cleanCodeMockup/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="17" selection-start="1870" selection-end="1870" vertical-scroll-proportion="0.0">
+            <state line="46" column="4" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -180,22 +206,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/cleanCodeMockup/src/main/java/jfree/junit/JavaTestSuite.java" />
-        <option value="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/jfree/date/SerialDate.java" />
-        <option value="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/jfree/jfree/date/SerialDate.java" />
-        <option value="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/jfree/junit/StrokeTests.java" />
-        <option value="$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/jfree/JavaTestSuite.java" />
-        <option value="$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/jfree/date/SerialDateTests.java" />
-        <option value="$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/refactoringSerialDate/org/jfree/date/SerialDateTests.java" />
-        <option value="$PROJECT_DIR$/mockup/pom.xml" />
-        <option value="$PROJECT_DIR$/patternsMockup/pom.xml" />
-        <option value="$PROJECT_DIR$/praticalUnitTestingMockup/pom.xml" />
-        <option value="$PROJECT_DIR$/fowlerRefactoringMockup/pom.xml" />
-        <option value="$PROJECT_DIR$/cleanCodeMockup/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/SerialDateOriginal.java" />
-        <option value="$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/refactoringSerialDate/org/jfree/date/BobsSerialDateTest.java" />
-        <option value="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/SerialDate.java" />
+        <option value="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/SerialDateUtilities.java" />
+        <option value="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/SpreadsheetDate.java" />
+        <option value="$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/refactoringSerialDate/org/jfree/date/SerialDateUtilitiesTests.java" />
+        <option value="$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/refactoringSerialDate/org/jfree/date/DayTest.java" />
+        <option value="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/DayDate.java" />
+        <option value="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/README.txt" />
+        <option value="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/G30FunctionsShouldDoOneThing/Employee.java" />
+        <option value="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/G30FunctionsShouldDoOneThing/PaymentsManager.java" />
+        <option value="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/N1ChooseDescriptiveNames/Example.java" />
+        <option value="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/N1ChooseDescriptiveNames/ExampleRevised.java" />
+        <option value="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/N2ChooseNamesAtAbstractionLevel/Modem.java" />
+        <option value="$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/N2ChooseNamesAtAbstractionLevel/BetterModem.java" />
+        <option value="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/extractmethod/Order.java" />
+        <option value="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/extractmethod/BaseExampleClass.java" />
+        <option value="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/extractmethod/RefactoredExampleClass.java" />
+        <option value="$PROJECT_DIR$/fowlerRefactoringMockup/src/test/java/org/talamona/extractmethod/BaseExampleClassTest.java" />
       </list>
     </option>
   </component>
@@ -286,6 +312,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -294,261 +321,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MockupRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MockupRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MockupRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MockupRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="praticalUnitTestingMockup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MockupRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MockupRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cleanCodeMockup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MockupRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MockupRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cleanCodeMockup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MockupRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MockupRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cleanCodeMockup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="talamona" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jfree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MockupRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MockupRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cleanCodeMockup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="talamona" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jfree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="date" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MockupRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MockupRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cleanCodeMockup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="talamona" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MockupRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MockupRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cleanCodeMockup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MockupRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MockupRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cleanCodeMockup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="talamona" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="date" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MockupRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MockupRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cleanCodeMockup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="talamona" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_directory_selection" value="$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/organizingForChange" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/fowlerRefactoringMockup/src/test/java/org/talamona" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="OverrideImplement.combined" value="true" />
@@ -556,7 +334,7 @@
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="usage.statistics" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/jcommon-1.0.18" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../databaseManagement/pom.xml" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
@@ -567,13 +345,17 @@
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="org.talamona.organizingForChange" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.talamona.extractmethod" />
+      <recent name="org.talamona.refactoringSerialDate.org.jfree.date" />
+      <recent name="org.talamona.organizingForChange" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.talamona.extractmethod" />
+      <recent name="org.talamona.N1ChooseDescriptiveNames" />
       <recent name="org.talamona.refactoringSerialDate.org.jfree.date" />
       <recent name="org.talamona.noduplication.templatepattern" />
       <recent name="org.talamona.organizingForChange" />
@@ -582,6 +364,17 @@
       <recent name="$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/jfree" />
       <recent name="$PROJECT_DIR$/cleanCodeMockup/src/main/java" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.talamona.extractmethod" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.talamona.extractmethod" />
+      <recent name="org.talamona.refactoringSerialDate.org.jfree.date" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/refactoringSerialDate/org/jfree/date" />
+      <recent name="$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/jfree/date" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.talamona.refactoringSerialDate.org.jfree" />
       <recent name="org.talamona.refactoringSerialDate" />
@@ -589,78 +382,8 @@
       <recent name="org.jfree" />
       <recent name="org.talamona.organizingForChange" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/refactoringSerialDate/org/jfree/date" />
-      <recent name="$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/jfree/date" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.SerialDateTests">
-    <configuration default="false" name="JavaTestSuite" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="cleanCodeMockup" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.talamona.jfree" />
-      <option name="MAIN_CLASS_NAME" value="org.talamona.jfree.JavaTestSuite" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="DatePackageTests" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="cleanCodeMockup" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.talamona.jfree.date" />
-      <option name="MAIN_CLASS_NAME" value="org.talamona.jfree.date.DatePackageTests" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PaintTests" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="cleanCodeMockup" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.talamona.refactoringSerialDate.org.jfree" />
-      <option name="MAIN_CLASS_NAME" value="org.talamona.refactoringSerialDate.org.jfree.PaintTests" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="TestNG.BaseExampleClassTest">
     <configuration default="false" name="SerialDateTests" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="cleanCodeMockup" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -707,6 +430,93 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="org.talamona.refactoringSerialDate.org.jfree.date" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="cleanCodeMockup" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="org.talamona.refactoringSerialDate.org.jfree.date" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DayTest" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="cleanCodeMockup" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="org.talamona.refactoringSerialDate.org.jfree.date" />
+      <option name="MAIN_CLASS_NAME" value="org.talamona.refactoringSerialDate.org.jfree.date.DayTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BaseExampleClassTest" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="fowlerMockup" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="org.talamona.extractmethod" />
+      <option name="MAIN_CLASS_NAME" value="org.talamona.extractmethod.BaseExampleClassTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -822,19 +632,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.JavaTestSuite" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DatePackageTests" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PaintTests" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SerialDateTests" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BobsSerialDateTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.SerialDateTests" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BobsSerialDateTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.org.talamona.refactoringSerialDate.org.jfree.date" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.DayTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.BaseExampleClassTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BobsSerialDateTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SerialDateTests" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SerialDateTests" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PaintTests" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DatePackageTests" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.BaseExampleClassTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.DayTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.org.talamona.refactoringSerialDate.org.jfree.date" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BobsSerialDateTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SerialDateTests" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -878,9 +688,9 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39878234" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5004277" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -889,13 +699,13 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24978614" sideWeight="0.6788432" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29683492" sideWeight="0.646434" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3233533" sideWeight="0.64687973" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41146278" sideWeight="0.64687973" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35312024" sideWeight="0.49957228" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.49957228" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724506" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724506" sideWeight="0.49957228" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325723" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24978614" sideWeight="0.67275494" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39878234" sideWeight="0.49957228" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -964,110 +774,90 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/noduplication/templatepattern/EUVacationPolicy.java">
+    <entry file="file://$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/DayDateFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="60" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" />
+        <state line="8" column="22" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/refactoringSerialDate/org/jfree/date/DatePackageTests.java">
+    <entry file="file://$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/SpreadsheetDateFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="13" selection-start="1965" selection-end="1965" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="12" column="13" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/refactoringSerialDate/org/jfree/PaintTests.java">
+    <entry file="file://$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/SpreadDate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="13" selection-start="1942" selection-end="1942" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="497" column="61" selection-start="16849" selection-end="16849" vertical-scroll-proportion="0.08064516" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/MonthConstants.java">
+    <entry file="file://$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/DayDate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="17" selection-start="1968" selection-end="1968" vertical-scroll-proportion="0.21394612">
+        <state line="101" column="5" selection-start="3587" selection-end="3587" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="37" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/G30FunctionsShouldDoOneThing/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="23" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/G30FunctionsShouldDoOneThing/PaymentsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="1" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/N1ChooseDescriptiveNames/Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/N1ChooseDescriptiveNames/ExampleRevised.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="20" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/N2ChooseNamesAtAbstractionLevel/Modem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="167" selection-end="350" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/N2ChooseNamesAtAbstractionLevel/BetterModem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="51" selection-start="357" selection-end="357" vertical-scroll-proportion="0.30805686" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/applications/jvm/jdk1.6.0_11/src.zip!/java/util/Enumeration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="17" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.40758294" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/extractmethod/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="11" selection-start="161" selection-end="161" vertical-scroll-proportion="0.33834586">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/SpreadsheetDate.java">
+    <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/extractmethod/BaseExampleClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="13" selection-start="3431" selection-end="3431" vertical-scroll-proportion="0.0">
+        <state line="10" column="53" selection-start="176" selection-end="199" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mockup/pom.xml">
+    <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/test/java/org/talamona/extractmethod/BaseExampleClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/patternsMockup/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/praticalUnitTestingMockup/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="531" selection-end="531" vertical-scroll-proportion="0.2669903">
+        <state line="46" column="4" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/pom.xml">
+    <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/extractmethod/RefactoredExampleClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="29" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/applications/jvm/jdk1.6.0_11/src.zip!/java/text/DateFormatSymbols.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="13" selection-start="3307" selection-end="3307" vertical-scroll-proportion="-3.357143" />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/applications/jvm/jdk1.6.0_11/src.zip!/java/text/SimpleDateFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1994" column="25" selection-start="70106" selection-end="70106" vertical-scroll-proportion="0.29041097" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cleanCodeMockup/src/main/java/org/talamona/refactoringSerialDate/org/jfree/date/SerialDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="699" column="48" selection-start="22239" selection-end="22258" vertical-scroll-proportion="0.30805686">
-          <folding>
-            <element signature="e#0#32783#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="method#stringToWeekdayCode#0;class#SerialDate#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="59" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/refactoringSerialDate/org/jfree/date/SerialDateTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="192" column="89" selection-start="6412" selection-end="6412" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cleanCodeMockup/src/test/java/org/talamona/refactoringSerialDate/org/jfree/date/BobsSerialDateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="338" column="39" selection-start="15223" selection-end="15242" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cleanCodeMockup/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="17" selection-start="1870" selection-end="1870" vertical-scroll-proportion="0.0">
+        <state line="41" column="0" selection-start="877" selection-end="877" vertical-scroll-proportion="0.20760697">
           <folding />
         </state>
       </provider>

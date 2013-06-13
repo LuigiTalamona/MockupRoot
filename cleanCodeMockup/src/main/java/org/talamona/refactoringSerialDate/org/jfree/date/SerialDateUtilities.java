@@ -145,7 +145,7 @@ public class SerialDateUtilities {
      * @return the number of days between the start date and the end date.
      */
     public static int dayCountActual(final SerialDate start, final SerialDate end) {
-        return end.compare(start);
+        return 0;//end.compare(start);
     }
 
     /**
@@ -168,6 +168,7 @@ public class SerialDateUtilities {
         final int d2;
         final int m2;
         final int y2;
+        /*
         if (start.isBefore(end)) {  // check the order of the dates
             d1 = start.getDayOfMonth();
             m1 = start.getMonth();
@@ -179,7 +180,8 @@ public class SerialDateUtilities {
         }
         else {
             return -dayCount30(end, start);
-        }
+        }*/
+        return 0;
     }
 
     /**
@@ -204,6 +206,7 @@ public class SerialDateUtilities {
         int d2;
         final int m2;
         final int y2;
+        /*
         if (start.isBefore(end)) {
             d1 = start.getDayOfMonth();
             m1 = start.getMonth();
@@ -224,7 +227,9 @@ public class SerialDateUtilities {
         }
         else {
             return 0;
-        }
+        }*/
+        return 0;
+
     }
 
     /**
@@ -247,7 +252,7 @@ public class SerialDateUtilities {
         int d2;
         final int m2;
         final int y2;
-
+        /*
         if (start.isOnOrBefore(end)) { // check the order of the dates
             d1 = start.getDayOfMonth();
             m1 = start.getMonth();
@@ -270,7 +275,9 @@ public class SerialDateUtilities {
         }
         else {
             return -dayCount30PSA(end, start);
-        }
+        }*/
+        return 0;
+
     }
 
     /**
@@ -295,6 +302,7 @@ public class SerialDateUtilities {
         int d2;
         final int m2;
         final int y2;
+        /*
         if (start.isBefore(end)) {
             d1 = start.getDayOfMonth();
             m1 = start.getMonth();
@@ -315,7 +323,9 @@ public class SerialDateUtilities {
         }
         else {
             return 0;
-        }
+        }*/
+        return 0;
+
     }
 
     /**
@@ -364,7 +374,7 @@ public class SerialDateUtilities {
         final int y1;
         final int y2;
         int year;
-
+        /*
         // check the order of the dates
         if (start.isBefore(end)) {
 
@@ -382,7 +392,7 @@ public class SerialDateUtilities {
         }
         else {
             return countFeb29s(end, start);
-        }
+        }*/
+        return 0;
     }
-
 }

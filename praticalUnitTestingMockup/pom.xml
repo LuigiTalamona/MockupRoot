@@ -114,7 +114,11 @@
             <version>1.5</version>
             <scope>test</scope>
         </dependency>
-<!--        
+        <dependency>
+            <groupId>org.powermock</groupId>
+            <artifactId>powermock-release-with-testng-mockito-dependencies</artifactId>
+            <version>1.5.1</version>
+        </dependency><!--
         <dependency>
         <groupId>org.powermock</groupId>
         <artifactId>powermock-module-testng-agent</artifactId>

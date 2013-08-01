@@ -2,32 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d3d1ece-95eb-4b88-a595-9746a14b19e1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/ChildrenPrice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor2/CustomerText.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/CustomerText.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor2/Movie.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/Movie.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor2/MovieRental.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/MovieRental.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/talamona/chapter1/refactor2/MovieRentalNGTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/talamona/chapter1/refactor3/MovieRentalNGTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/NewReleasePrice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/Price.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/RegularPrice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor2/Rental.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/Rental.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/talamona/chapter1/refactor2/StatementNGTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/talamona/chapter1/refactor3/StatementNGTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/talamona/conditionals/polymorphism/after/EmployeeType.java" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/conditionals/polymorphism/after/EmployeeType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/talamona/conditionals/polymorphism/after/Engineer.java" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/conditionals/polymorphism/after/Engineer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pom.xml" afterPath="$PROJECT_DIR$/../pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/methodObject/Account.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/moveMethod/AccountAbstract.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/moveMethod/after/AccountAbstractRefactored.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/methodObject/after/AccountRefactored.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/talamona/methodObject/AccountTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/moveMethod/AccountType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/moveMethod/after/AccountTypeRefactored.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/methodObject/after/Gamma.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/introduceExplainVariable/IntroduceExplainVariable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/introduceExplainVariable/after/IntroduceExplainVariableRefactored.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/talamona/introduceExplainVariable/after/IntroduceExplainVariableRefactoredTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/talamona/introduceExplainVariable/IntroduceExplainVariableTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/moveMethod/PremiumAccount.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/moveMethod/after/PremiumAccountRefactored.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/talamona/moveField/PremiumAccountTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/talamona/moveField/after/PremiumAccountTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/talamona/moveMethod/PremiumAccountTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/talamona/moveMethod/after/PremiumAccountTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/replacetempQuery/ReplaceTempWithQueryBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/talamona/replacetempQuery/ReplaceTempWithQueryBaseTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/replacetempQuery/after/ReplaceTempWithQueryRefactored.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/talamona/replacetempQuery/after/ReplaceTempWithQueryRefactoredTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/splitTemporaryVar/SplitTemporaryVarBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/moveMethod/StandardAccount.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/moveMethod/after/StandardAccountRefactored.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/talamona/moveField/StandardAccountTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/talamona/moveField/after/StandardAccountTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/talamona/moveMethod/StandardAccountTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/talamona/moveMethod/after/StandardAccountTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/substituteAlgorithm/SubstituteAlgorithmBaseClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/talamona/substituteAlgorithm/after/SubstituteAlgorithmBaseClassRefactored.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/talamona/substituteAlgorithm/SubstituteAlgorithmBaseClassTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fowlerMockup.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1366803738774" ignored="false" />
+    <file path="/Dummy.txt" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1372757691897" ignored="false" />
     <file path="/CustomerText.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1365669100619" ignored="false" />
-    <file path="/fragment.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1365763281088" ignored="false" />
+    <file path="/fragment.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1372322443709" ignored="false" />
     <file path="/Movie.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1365766833111" ignored="false" />
     <file path="/MovieRental.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1365689573069" ignored="false" />
     <file path="/Price.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1365762867591" ignored="false" />
@@ -36,6 +51,23 @@
     <file path="/RegularPrice.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1365763307388" ignored="false" />
     <file path="/StatementNGTest.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1365768931877" ignored="false" />
     <file path="/MovieRentalNGTest.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1365768462356" ignored="false" />
+    <file path="/Gamma.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1372147412186" ignored="false" />
+    <file path="/AccountRefactored.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1372147259077" ignored="false" />
+    <file path="/AccountTest.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1372249137107" ignored="false" />
+    <file path="/SubstituteAlgorithmBaseClass.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1372154443237" ignored="false" />
+    <file path="/SubstituteAlgorithmBaseClassTest.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1372246632794" ignored="false" />
+    <file path="/SubstituteAlgorithmBaseClassRefactored.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1372246399997" ignored="false" />
+    <file path="/Account.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1372255042704" ignored="false" />
+    <file path="/AccountType.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1372321050800" ignored="false" />
+    <file path="/AccountTypeInterface.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1372249990087" ignored="false" />
+    <file path="/AccountAbstract.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1372322225353" ignored="false" />
+    <file path="/AccountFactory.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1372253492502" ignored="false" />
+    <file path="/PremiumAccountTest.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1372758294511" ignored="false" />
+    <file path="/StandardAccount.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1372320654492" ignored="false" />
+    <file path="/StandardAccountTest.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1372321538104" ignored="false" />
+    <file path="/PremiumAccount.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1372320598847" ignored="false" />
+    <file path="/AccountTypeRefactored.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1372758959005" ignored="false" />
+    <file path="/AccountAbstractRefactored.java" changelist="2d3d1ece-95eb-4b88-a595-9746a14b19e1" time="1372759227698" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,22 +82,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/MovieRental.java" line="19" class="org.talamona.chapter1.refactor3.MovieRental" package="org.talamona.chapter1.refactor3">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -74,6 +90,7 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
         <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
@@ -90,6 +107,7 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
         <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
@@ -101,6 +119,23 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/MovieRental.java" line="19" class="org.talamona.chapter1.refactor3.MovieRental" package="org.talamona.chapter1.refactor3">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -110,65 +145,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MovieRentalNGTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/talamona/chapter1/refactor3/MovieRentalNGTest.java">
+      <file leaf-file-name="PremiumAccountTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/talamona/moveField/after/PremiumAccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="94" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
+            <state line="59" column="0" selection-start="1358" selection-end="1682" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StandardAccountTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/talamona/moveField/after/StandardAccountTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="4" selection-start="1362" selection-end="1362" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountTypeRefactored.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/talamona/moveField/after/AccountTypeRefactored.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="28" selection-start="228" selection-end="240" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieRental.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/MovieRental.java">
+      <file leaf-file-name="AccountAbstractRefactored.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/talamona/moveField/after/AccountAbstractRefactored.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="9" column="0" selection-start="128" selection-end="128" vertical-scroll-proportion="0.15490533">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StatementNGTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/talamona/chapter1/refactor3/StatementNGTest.java">
+      <file leaf-file-name="PremiumAccountTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/talamona/moveField/PremiumAccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="56" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Movie.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/Movie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="37" selection-start="41" selection-end="41" vertical-scroll-proportion="0.024509804">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerText.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/CustomerText.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="45" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MethodInterceptorFilter.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar!/org/mockito/internal/creation/MethodInterceptorFilter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="28" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ObjectMethodsGuru.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar!/org/mockito/internal/util/ObjectMethodsGuru.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="19" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="28" column="0" selection-start="407" selection-end="581" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -191,22 +214,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/org/talamona/chapter1/refactor2/refactor1/StatementNGTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/talamona/chapter1/refactor2/StatementNGTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor2/refactor2/CustomerText.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/Rental.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor2/Rental.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor2/Movie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor2/MovieRental.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/refactor2/CustomerText.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/Price.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/ChildrenPrice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/NewReleasePrice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/RegularPrice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/CustomerText.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/talamona/chapter1/refactor3/MovieRentalNGTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/talamona/chapter1/refactor3/StatementNGTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/Movie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/talamona/moveMethod/after/StandardAccount.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/talamona/moveMethod/PremiumAccountTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/talamona/moveMethod/after/AccountType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/talamona/moveMethod/after/AccountAbstractRefactored.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/talamona/moveMethod/moveMethod/AccountAbstract.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/talamona/moveMethod/moveField/AccountAbstract.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/talamona/moveField/moveMethod/after/StandardAccountTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/talamona/moveMethod/after/PremiumAccountTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/talamona/moveMethod/after/StandardAccountTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/talamona/moveField/AccountAbstract.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/talamona/moveField/PremiumAccountTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/talamona/moveField/StandardAccountTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/talamona/moveField/after/AccountTypeRefactored.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/talamona/moveField/after/PremiumAccountTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/talamona/moveField/after/StandardAccountTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/talamona/moveField/after/AccountAbstractRefactored.java" />
       </list>
     </option>
   </component>
@@ -257,10 +280,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-4" />
-    <option name="width" value="1217" />
-    <option name="height" value="805" />
+    <option name="x" value="66" />
+    <option name="y" value="52" />
+    <option name="width" value="1213" />
+    <option name="height" value="747" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -288,9 +311,18 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fowlerMockup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="fowlerMockup" />
@@ -300,43 +332,71 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/org/talamona/moveField/moveMethod" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="reference.projectsettings.compiler.javacompiler" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../myhome-sandbox/pom.xml" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.talamona.moveMethod" />
+      <recent name="org.talamona.substituteAlgorithm" />
+      <recent name="org.talamona.methodObject" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.talamona.substituteAlgorithm.after" />
       <recent name="org.talamona.chapter1.refactor3" />
       <recent name="org.talamona.chapter1.refactor2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/org/talamona/moveField" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/talamona/moveMethod" />
+      <recent name="$PROJECT_DIR$/src/test/java/org/talamona/moveMethod/after" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/talamona/moveMethod/after" />
       <recent name="$PROJECT_DIR$/src/test/java/org/talamona/chapter1/refactor3" />
-      <recent name="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3" />
-      <recent name="$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor2" />
-      <recent name="$PROJECT_DIR$/src/test/java/org/talamona/chapter1/refactor2" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.talamona.moveMethod" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.talamona.moveMethod" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.talamona.moveField" />
+      <recent name="org.talamona.moveField.after" />
+      <recent name="org.talamona.moveField.moveField" />
+      <recent name="org.talamona.moveField.moveMethod" />
+      <recent name="org.talamona" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.StatementNGTest">
-    <configuration default="false" name="MovieRentalNGTest" type="TestNG" factoryName="TestNG" temporary="true">
+  <component name="RunManager" selected="TestNG.org.talamona.moveField.after">
+    <configuration default="false" name="SubstituteAlgorithmBaseClassTest" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="fowlerMockup" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="org.talamona.chapter1.refactor3" />
-      <option name="MAIN_CLASS_NAME" value="org.talamona.chapter1.refactor3.MovieRentalNGTest" />
+      <option name="PACKAGE_NAME" value="org.talamona.substituteAlgorithm" />
+      <option name="MAIN_CLASS_NAME" value="org.talamona.substituteAlgorithm.SubstituteAlgorithmBaseClassTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -355,23 +415,50 @@
       <envs />
       <properties />
       <listeners />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="46576" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="StatementNGTest" type="TestNG" factoryName="TestNG" temporary="true">
+    <configuration default="false" name="StandardAccountTest and 1 more" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="fowlerMockup" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="org.talamona.chapter1.refactor3" />
-      <option name="MAIN_CLASS_NAME" value="org.talamona.chapter1.refactor3.StatementNGTest" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="PATTERN" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <patterns>
+        <pattern testClass="org.talamona.moveField.after.StandardAccountTest" />
+        <pattern testClass="org.talamona.moveField.after.PremiumAccountTest" />
+      </patterns>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PremiumAccountTest" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="fowlerMockup" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="org.talamona.moveField.after" />
+      <option name="MAIN_CLASS_NAME" value="org.talamona.moveField.after.PremiumAccountTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -390,13 +477,65 @@
       <envs />
       <properties />
       <listeners />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="51717" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="StandardAccountTest" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="fowlerMockup" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="org.talamona.moveField.after" />
+      <option name="MAIN_CLASS_NAME" value="org.talamona.moveField.after.StandardAccountTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="org.talamona.moveField.after" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="fowlerMockup" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="org.talamona.moveField.after" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -421,6 +560,7 @@
             <option name="profilesMap">
               <map />
             </option>
+            <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="" />
           </MavenRunnerParameters>
         </option>
@@ -509,14 +649,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.MovieRentalNGTest" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.StatementNGTest" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="TestNG.SubstituteAlgorithmBaseClassTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.StandardAccountTest and 1 more" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.PremiumAccountTest" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.StandardAccountTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.org.talamona.moveField.after" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.StatementNGTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.MovieRentalNGTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.org.talamona.moveField.after" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.StandardAccountTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.PremiumAccountTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.StandardAccountTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.PremiumAccountTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -552,7 +698,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1217" height="805" extended-state="6" />
+    <frame x="66" y="52" width="1213" height="747" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -563,16 +709,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.497006" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24978614" sideWeight="0.32473445" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37211293" sideWeight="0.21917808" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.67275494" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31308812" sideWeight="0.67275494" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724506" sideWeight="0.497006" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37189373" sideWeight="0.6735669" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32643312" sideWeight="0.497006" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -603,7 +749,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
@@ -613,6 +759,10 @@
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
@@ -626,6 +776,7 @@
     <option name="ACTIVE_VCS_NAME" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
@@ -637,108 +788,112 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor2/Movie.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/talamona/moveMethod/after/AccountTypeRefactored.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="1200" selection-end="1200" vertical-scroll-proportion="0.92890996" />
+        <state line="19" column="27" selection-start="417" selection-end="417" vertical-scroll-proportion="0.7620321" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor2/MovieRental.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/talamona/moveMethod/PremiumAccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" />
+        <state line="31" column="30" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/Rental.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/talamona/moveMethod/StandardAccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="88" selection-end="88" vertical-scroll-proportion="0.25240386">
+        <state line="14" column="13" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/talamona/moveMethod/after/PremiumAccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/talamona/moveMethod/after/StandardAccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.072115384" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/talamona/substituteAlgorithm/SubstituteAlgorithmBaseClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="4" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0390625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/Price.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/talamona/replacetempQuery/ReplaceTempWithQueryBaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="42" selection-start="130" selection-end="130" vertical-scroll-proportion="0.2658228">
+        <state line="22" column="0" selection-start="359" selection-end="541" vertical-scroll-proportion="0.453125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/ChildrenPrice.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/talamona/moveField/StandardAccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="11" selection-start="253" selection-end="253" vertical-scroll-proportion="0.3966346">
+        <state line="52" column="0" selection-start="1330" selection-end="1330" vertical-scroll-proportion="1.30854">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/talamona/moveField/AccountAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="0" selection-start="1119" selection-end="1296" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/NewReleasePrice.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/talamona/moveField/PremiumAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="64" selection-start="324" selection-end="324" vertical-scroll-proportion="0.54086536">
+        <state line="8" column="13" selection-start="134" selection-end="134" vertical-scroll-proportion="0.09042553">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/RegularPrice.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/talamona/moveField/after/PremiumAccountRefactored.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="41" selection-start="315" selection-end="315" vertical-scroll-proportion="0.3966346">
+        <state line="8" column="13" selection-start="140" selection-end="140" vertical-scroll-proportion="0.06140351">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/talamona/chapter1/StatementNGTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/talamona/moveField/PremiumAccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="37" selection-start="69" selection-end="69" vertical-scroll-proportion="0.07614213">
+        <state line="28" column="0" selection-start="407" selection-end="581" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/talamona/moveField/after/PremiumAccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="1358" selection-end="1682" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/talamona/moveField/after/StandardAccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="4" selection-start="1362" selection-end="1362" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/talamona/moveField/after/AccountTypeRefactored.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="28" selection-start="228" selection-end="240" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8.jar!/org/testng/internal/Invoker.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/talamona/moveField/after/AccountAbstractRefactored.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="35" selection-start="5163" selection-end="5163" vertical-scroll-proportion="0.31092438" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar!/org/mockito/internal/util/ObjectMethodsGuru.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="19" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/talamona/chapter1/refactor3/MovieRentalNGTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="94" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar!/org/mockito/internal/creation/MethodInterceptorFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="28" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/MovieRental.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/CustomerText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="45" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/talamona/chapter1/refactor3/StatementNGTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="56" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/talamona/chapter1/refactor3/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="37" selection-start="41" selection-end="41" vertical-scroll-proportion="0.024509804">
+        <state line="9" column="0" selection-start="128" selection-end="128" vertical-scroll-proportion="0.15490533">
           <folding />
         </state>
       </provider>

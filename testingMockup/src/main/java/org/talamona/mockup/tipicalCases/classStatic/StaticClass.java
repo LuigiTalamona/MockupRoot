@@ -14,4 +14,10 @@ public class StaticClass {
         Date date = new Date();
         return Long.valueOf(date.getTime());
     }
+    public static String calculateTime(){
+    	return Long.toString(new Date().getTime());
+    }
+    public static String calculateName(int index){
+    	return Integer.toString(index);
+    }
 }

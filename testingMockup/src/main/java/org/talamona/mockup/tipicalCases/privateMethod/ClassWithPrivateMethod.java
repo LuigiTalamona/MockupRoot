@@ -1,6 +1,5 @@
 package org.talamona.mockup.tipicalCases.privateMethod;
 
-import org.talamona.mockup.tipicalCases.classStatic.StaticClass;
 
 /**
  * Created with IntelliJ IDEA.

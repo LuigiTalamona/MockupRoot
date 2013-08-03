@@ -26,12 +26,6 @@ import static org.testng.Assert.assertEquals;
 public class ClassWithStaticMemberTest extends PowerMockTestCase{
     private ClassWithStaticMember sut;
 
-/*
-    @ObjectFactory
-    public IObjectFactory getObjectFactory() {
-        return new org.powermock.modules.testng.PowerMockObjectFactory();
-    }
-*/
     @BeforeMethod
     public void setUp() throws Exception {
         sut = new ClassWithStaticMember();
@@ -44,15 +38,11 @@ public class ClassWithStaticMemberTest extends PowerMockTestCase{
 
         String expected = Long.toString(3l);
         String actual = sut.sampleMethod();
-
         assertEquals(actual, expected);
 
         // Optionally verify that the static method was actually called
-        verifyStatic();
+        verifyStatic(Mockito.times(1));
         StaticClass.createNumber();
-
-
-
 
     }
 }

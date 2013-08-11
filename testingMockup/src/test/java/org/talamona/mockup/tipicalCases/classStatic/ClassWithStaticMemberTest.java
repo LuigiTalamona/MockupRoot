@@ -4,13 +4,9 @@ import org.mockito.Mockito;
 import org.powermock.api.mockito.PowerMockito;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.testng.PowerMockTestCase;
-import org.testng.IObjectFactory;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.ObjectFactory;
 import org.testng.annotations.Test;
 
-import static org.mockito.Mockito.when;
-import static org.powermock.api.mockito.PowerMockito.mockStatic;
 import static org.powermock.api.mockito.PowerMockito.verifyStatic;
 import static org.testng.Assert.assertEquals;
 
@@ -25,6 +21,15 @@ import static org.testng.Assert.assertEquals;
 
 public class ClassWithStaticMemberTest extends PowerMockTestCase{
     private ClassWithStaticMember sut;
+    
+/* Described in documentation, but it doesn't work - It's necessary to derive class from PowerMockTestCase
+ * Is there any my mistake?
+ *       
+    @ObjectFactory
+	public IObjectFactory getObjectFactory() {
+		return new org.powermock.modules.testng.PowerMockObjectFactory();
+	}
+*/    
 
     @BeforeMethod
     public void setUp() throws Exception {

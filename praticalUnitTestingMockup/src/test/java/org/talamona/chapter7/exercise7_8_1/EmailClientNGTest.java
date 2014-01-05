@@ -18,8 +18,9 @@ import static org.testng.Assert.assertEquals;
  *
  * @author luigi
  */
-//@PrepareForTest(EmailServer.class)
-public class EmailClientNGTest {
+@PrepareForTest(EmailServer.class)
+
+public class EmailClientNGTest extends PowerMockTestCase{
 
     public EmailClientNGTest() {
     }
@@ -43,9 +44,9 @@ public class EmailClientNGTest {
         PowerMockito.whenNew(Email.class).withAnyArguments().thenReturn(e);
         PowerMockito.mockStatic(EmailServer.class);
 
-        PowerMockito.when(EmailServer.sendMail(e)).thenReturn(Boolean.FALSE);
+        //PowerMockito.when(EmailServer.sendMail(e)).thenReturn(Boolean.FALSE);
 
-        //PowerMockito.doReturn(Boolean.FALSE).when(EmailServer.class, "sendMail", e);
+        PowerMockito.doReturn(Boolean.FALSE).when(EmailServer.class, "sendMail", e);
 
         Boolean actual = EmailServer.sendMail(e);
         assertEquals(actual, Boolean.TRUE);

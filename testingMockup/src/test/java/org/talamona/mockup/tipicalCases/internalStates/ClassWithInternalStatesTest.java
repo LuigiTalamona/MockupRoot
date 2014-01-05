@@ -21,19 +21,15 @@ public class ClassWithInternalStatesTest {
     public void setup(){
         this.sut = new ClassWithInternalStates();
     }
-
     @Test
     public void testGetNumberMethodBefore() throws Exception {
         int expected = 100;
-        int actual = this.sut.getNumber();
-        assertEquals(actual, expected);
-
+        assertEquals(this.sut.getNumber(), expected);
     }
     @Test
     public void testGetNumberMethodAfterUsingSetting() throws Exception {
         int expected = 500;
         Whitebox.setInternalState(this.sut, "number", expected);
-        int actual = this.sut.getNumber();
-        assertEquals(actual, expected);
+        assertEquals(this.sut.getNumber(), expected);
     }
 }

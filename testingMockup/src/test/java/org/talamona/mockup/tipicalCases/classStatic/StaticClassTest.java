@@ -6,6 +6,7 @@ import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.testng.PowerMockTestCase;
 import org.testng.annotations.Test;
 
+import static org.mockito.Matchers.anyInt;
 import static org.testng.Assert.assertEquals;
 
 @PrepareForTest(StaticClass.class)
@@ -15,15 +16,11 @@ public class StaticClassTest extends PowerMockTestCase{
 	  String expected = "100";
 	  
 	  PowerMockito.mockStatic(StaticClass.class);
-	  Mockito.when(StaticClass.calculateName(0)).thenReturn(expected);
+	  Mockito.when(StaticClass.calculateName(anyInt())).thenReturn(expected);
 	  
 	  String actual = StaticClass.calculateName(0);
 	  assertEquals(actual, expected);
 	  
 	  PowerMockito.verifyStatic(Mockito.times(1));
-	  StaticClass.calculateName(0);
-	  
-	  
-	  
   }
 }

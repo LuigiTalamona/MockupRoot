@@ -9,10 +9,7 @@ package org.talamona.mockup.tipicalCases.argumentsCaptor;
 public class StandardClass {
 
     public StandardClass(){
-
     }
-
     public void doSomethingWithClassParam(ParameterClass p){
     }
-
 }

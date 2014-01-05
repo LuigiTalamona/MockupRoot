@@ -19,8 +19,6 @@ import static org.testng.Assert.assertEquals;
  * Time: 3:26 PM
  */
 
-//@PrepareForTest({StandardClassWithLoggingService.class})
-//@SuppressStaticInitializationFor({"StandardClassWithLoggingService"})
 
 public class StandardClassWithLoggingServiceAppenderTest {
 
@@ -32,51 +30,37 @@ public class StandardClassWithLoggingServiceAppenderTest {
     @BeforeMethod
     public void init(){
         MockitoAnnotations.initMocks(this);
-        //this.appender = Mockito.mock(Appender.class);
         this.sut = new StandardClassWithLoggingService();
         Logger.getRootLogger().addAppender(this.appender);
-
     }
     @AfterMethod
     public void dispose(){
         Logger.getRootLogger().removeAppender(this.appender);
         Mockito.reset(this.appender);
-
     }
-
-
     @Test
     public void testDoSomethingWithNoparamsWritingLogs() throws Exception {
-
-        boolean expected = true;
         boolean actual = this.sut.doSomethingWithNoparamsWritingLogs();
-
         Mockito.verify(this.appender, Mockito.times(4)).doAppend(this.argumentCaptor.capture());
-        Iterator i = this.argumentCaptor.getAllValues().iterator();
-        LoggingEvent le = null;
-
-        while(i.hasNext()){
-            le = (LoggingEvent) i.next();
-            System.out.println(le.getMessage());
-        }
-        assertEquals(actual, expected);
-
+        System.out.println(this.readArgumentCaptureValues());
+        assertEquals(actual, true);
     }
     @Test
     public void testDoSomethingWithParamsWritingLogs() throws Exception {
-
-        boolean expected = true;
         boolean actual = this.sut.doSomethingWithParamsWritingLogs("TEST STRING PARAM");
-
         Mockito.verify(this.appender, Mockito.times(4)).doAppend(this.argumentCaptor.capture());
-        Iterator i = this.argumentCaptor.getAllValues().iterator();
+        System.out.println(this.readArgumentCaptureValues());
+        assertEquals(actual, true);
+
+    }
+    private String readArgumentCaptureValues() {
+        StringBuilder sb = new StringBuilder();
+        Iterator iterator = this.argumentCaptor.getAllValues().iterator();
         LoggingEvent le = null;
-
-        while(i.hasNext()){
-            le = (LoggingEvent) i.next();
-            System.out.println(le.getMessage());
+        while(iterator.hasNext()){
+            le = (LoggingEvent)iterator.next();
+            sb.append(le.getMessage() + System.getProperty("line.separator"));
         }
-        assertEquals(actual, expected);
-
+        return sb.toString();
     }
 }

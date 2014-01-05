@@ -32,18 +32,10 @@ public class StandardClassWithLoggingServiceTest {
     public void init(){
         MockitoAnnotations.initMocks(this);
         Whitebox.setInternalState(sut, "logger", logger);
-
-
     }
-
-
     @Test
     public void testDoSomethingWithNoparamsWritingLogs() throws Exception {
-
-        boolean expected = Boolean.TRUE.booleanValue();
-
         Mockito.when(this.sut.doSomethingWithNoparamsWritingLogs()).thenCallRealMethod();
-
         boolean actual = this.sut.doSomethingWithNoparamsWritingLogs();
 
         Mockito.verify(logger).info(argumentCaptor.capture());
@@ -62,7 +54,7 @@ public class StandardClassWithLoggingServiceTest {
         message = argumentCaptor.getValue();
         System.out.println(message);
 
-        assertEquals(actual, expected);
+        assertEquals(actual, true);
 
     }
 }

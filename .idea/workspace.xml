@@ -5,113 +5,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/methodObject/Account.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/methodObject/after/AccountRefactored.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/methodObject/Gamma.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/methodObject/after/Gamma.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/introduceExplainVariable/IntroduceExplainVariable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/introduceExplainVariable/after/IntroduceExplainVariableRefactored.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/test/java/org/talamona/introduceExplainVariable/after/IntroduceExplainVariableRefactoredTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/test/java/org/talamona/introduceExplainVariable/IntroduceExplainVariableTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/replacetempQuery/ReplaceTempWithQueryBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/test/java/org/talamona/replacetempQuery/ReplaceTempWithQueryBaseTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/replacetempQuery/after/ReplaceTempWithQueryRefactored.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/test/java/org/talamona/replacetempQuery/after/ReplaceTempWithQueryRefactoredTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/splitTemporaryVar/SplitTemporaryVarBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testingMockup/src/main/java/org/talamona/mockup/tipicalCases/expectingAndManagingExceptions/DataAccess.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testingMockup/src/main/java/org/talamona/mockup/tipicalCases/stubbingMethodReturnedValue/Flower.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/stubbingMethodReturnedValue/FlowerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/stubbingReturningVoidMethod/FlowerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/verifyingCallOrderTestCase/InteractionsNeverHappenedTestCase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/mockingIterators/MockedCollectionWithMockedIteratorTestCase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/stubbingMultipleCallsOnSameMethod/MultipleCallsTestCase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testingMockup/src/main/java/org/talamona/mockup/tipicalCases/expectingAndManagingExceptions/PricingService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testingMockup/src/main/java/org/talamona/mockup/tipicalCases/expectingAndManagingExceptions/PricingServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/expectingAndManagingExceptions/PricingServiceImplTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testingMockup/src/main/java/org/talamona/mockup/tipicalCases/verifyingBehavior/RunnableWaterSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testingMockup/src/main/java/org/talamona/mockup/tipicalCases/expectingAndManagingExceptions/SkuNotFoundException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/mockingIterators/SpyedCollectionWithMockedIteratorTestCase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/spyingRealObjects/SpyingRealFlowerTestCase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/stubbingReturningVoidMethod/StubbingVoidMethodWithExceptionTestCase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/verifyingCallOrderTestCase/VerifyExactNumberOfInvocatonsTestCase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testingMockup/src/main/java/org/talamona/mockup/tipicalCases/verifyingBehavior/WaterSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/verifyingBehaviorTestCase/WaterSourceForBehaviorTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/verifyingCallOrderTestCase/WaterSourceForCallOrderTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/verifyingWithTimeout/WaterSourceForVerifyingTimeoutTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/praticalUnitTestingMockup/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/praticalUnitTestingMockup/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testingMockup/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testingMockup/.cvsignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testingMockup/.project" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/praticalUnitTestingMockup/src/main/java/org/talamona/chapter10/exercise10_7_1/CarSearch.java" afterPath="$PROJECT_DIR$/praticalUnitTestingMockup/src/main/java/org/talamona/chapter10/exercise10_7_1/CarSearch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/internalStates/ClassWithInternalStatesTest.java" afterPath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/internalStates/ClassWithInternalStatesTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testingMockup/src/main/java/org/talamona/mockup/tipicalCases/classStatic/ClassWithNormalAndStaticMethods.java" afterPath="$PROJECT_DIR$/testingMockup/src/main/java/org/talamona/mockup/tipicalCases/classStatic/ClassWithNormalAndStaticMethods.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/classStatic/ClassWithStaticMemberTest.java" afterPath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/classStatic/ClassWithStaticMemberTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/classStatic/ClientForClassWithNormalAndStaticMethodsMockTest.java" afterPath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/classStatic/ClientForClassWithNormalAndStaticMethodsMockTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/classStatic/ClientForClassWithNormalAndStaticMethodsSpyMockAnnotationTest.java" afterPath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/classStatic/ClientForClassWithNormalAndStaticMethodsSpyMockAnnotationTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/classStatic/ClientForClassWithNormalAndStaticMethodsSpyTest.java" afterPath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/classStatic/ClientForClassWithNormalAndStaticMethodsSpyTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/praticalUnitTestingMockup/src/test/java/org/talamona/chapter7/exercise7_8_1/EmailClientNGTest.java" afterPath="$PROJECT_DIR$/praticalUnitTestingMockup/src/test/java/org/talamona/chapter7/exercise7_8_1/EmailClientNGTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MockupRoot.iml" afterPath="$PROJECT_DIR$/MockupRoot.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testingMockup/src/main/java/org/talamona/mockup/tipicalCases/argumentsCaptor/StandardClass.java" afterPath="$PROJECT_DIR$/testingMockup/src/main/java/org/talamona/mockup/tipicalCases/argumentsCaptor/StandardClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testingMockup/src/main/java/org/talamona/mockup/tipicalCases/argumentsCaptor/StandardClassWithLoggingService.java" afterPath="$PROJECT_DIR$/testingMockup/src/main/java/org/talamona/mockup/tipicalCases/argumentsCaptor/StandardClassWithLoggingService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/argumentsCaptor/StandardClassWithLoggingServiceAppenderTest.java" afterPath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/argumentsCaptor/StandardClassWithLoggingServiceAppenderTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/argumentsCaptor/StandardClassWithLoggingServiceTest.java" afterPath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/argumentsCaptor/StandardClassWithLoggingServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/classStatic/StaticClassTest.java" afterPath="$PROJECT_DIR$/testingMockup/src/test/java/org/talamona/mockup/tipicalCases/classStatic/StaticClassTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cleanCodeMockup/cleanCodeMockup.iml" afterPath="$PROJECT_DIR$/cleanCodeMockup/cleanCodeMockup.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fowlerRefactoringMockup/fowlerMockup.iml" afterPath="$PROJECT_DIR$/fowlerRefactoringMockup/fowlerMockup.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockup/mockup.iml" afterPath="$PROJECT_DIR$/mockup/mockup.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternsMockup/patternsMockup.iml" afterPath="$PROJECT_DIR$/patternsMockup/patternsMockup.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/praticalUnitTestingMockup/pom.xml" afterPath="$PROJECT_DIR$/praticalUnitTestingMockup/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testingMockup/pom.xml" afterPath="$PROJECT_DIR$/testingMockup/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/praticalUnitTestingMockup/practicalTestingUnitMockup.iml" afterPath="$PROJECT_DIR$/praticalUnitTestingMockup/practicalTestingUnitMockup.iml" />
     </list>
     <ignored path="MockupRoot.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371554691309" ignored="false" />
-    <file path="/PrintPrimesRefactored.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368523116192" ignored="false" />
-    <file path="/PrintPrimes.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368798191763" ignored="false" />
-    <file path="/Sql.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368799596083" ignored="false" />
-    <file path="/AbstractSql.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368953217324" ignored="false" />
-    <file path="/CreateSql.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368804744939" ignored="false" />
-    <file path="/fragment.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371563492724" ignored="false" />
-    <file path="/InsertSql.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368960422792" ignored="false" />
-    <file path="/SelectWithCriteriaSql.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368955865802" ignored="false" />
-    <file path="/SelectSqlTestNG.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368882370028" ignored="false" />
-    <file path="/Column.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368881083633" ignored="false" />
-    <file path="/SelectSql.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368955525698" ignored="false" />
-    <file path="/SelectWithCriteriaSqlTestNG.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368953984776" ignored="false" />
-    <file path="/Criteria.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368883556996" ignored="false" />
-    <file path="/ColumnList.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368947098074" ignored="false" />
-    <file path="/ColumnListImpl.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368955294240" ignored="false" />
-    <file path="/ColumnListImplTestNG.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368955078382" ignored="false" />
-    <file path="/ValueList.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368958921700" ignored="false" />
-    <file path="/ValueListTestNG.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368959091108" ignored="false" />
-    <file path="/Value.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368958886585" ignored="false" />
-    <file path="/InsertSqlTestNG.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1368980150359" ignored="false" />
-    <file path="/VacationPolicy.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1369136048098" ignored="false" />
-    <file path="/USVacationPolicy.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1369136071327" ignored="false" />
-    <file path="/EUVacationPolicy.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1369136083215" ignored="false" />
-    <file path="/StrokeTests.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1369303167744" ignored="false" />
-    <file path="/pom.xml" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370943648742" ignored="false" />
-    <file path="/BobsSerialDateTest.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1369489671956" ignored="false" />
-    <file path="/SerialDate.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370179173174" ignored="false" />
-    <file path="/SerialDateOriginal.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1369491650965" ignored="false" />
-    <file path="/DayDate.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370186598171" ignored="false" />
-    <file path="/SpreadsheetDate.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370179575318" ignored="false" />
-    <file path="/NewSpreadsheetDate.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1369733767385" ignored="false" />
-    <file path="/SpreadDayDate.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1369733874057" ignored="false" />
-    <file path="/SpreadDate.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370178442340" ignored="false" />
-    <file path="/DayDateFactory.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1369751680138" ignored="false" />
-    <file path="/SpreadsheetDateFactory.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1369754413492" ignored="false" />
-    <file path="/Day.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370168549368" ignored="false" />
-    <file path="/DayTest.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370184825059" ignored="false" />
-    <file path="/AnnualDateRule.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370177845738" ignored="false" />
-    <file path="/DayAndMonthRule.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370177882703" ignored="false" />
-    <file path="/DayOfWeekInMonthRule.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370178053191" ignored="false" />
-    <file path="/RelativeDayOfWeekRule.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370178972226" ignored="false" />
-    <file path="/SerialDateUtilities.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370179343350" ignored="false" />
-    <file path="/README.txt" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370265574368" ignored="false" />
-    <file path="/Employee.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370266279914" ignored="false" />
-    <file path="/PaymentsManager.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370267167129" ignored="false" />
-    <file path="/Example.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370330252062" ignored="false" />
-    <file path="/ExampleRevised.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370331010504" ignored="false" />
-    <file path="/Modem.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370331384663" ignored="false" />
-    <file path="/BetterModem.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370331506351" ignored="false" />
-    <file path="/BaseExampleClass.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370511943794" ignored="false" />
-    <file path="/Order.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370511350537" ignored="false" />
-    <file path="/BaseExampleClassTest.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370522475825" ignored="false" />
-    <file path="/RefactoredExampleClass.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370523138677" ignored="false" />
-    <file path="$PROJECT_DIR$/../databaseManagement/pom.xml" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370943648742" ignored="false" />
-    <file path="$PROJECT_DIR$/../databaseManagement/src/main/resources/master.xml" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370939027725" ignored="false" />
-    <file path="/master.xml" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370939014519" ignored="false" />
-    <file path="$PROJECT_DIR$/../databaseManagement/src/main/resources/liquibase.properties" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370940353723" ignored="false" />
-    <file path="$PROJECT_DIR$/../databaseManagement/src/main/resources/script" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370942246996" ignored="false" />
-    <file path="/script" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370941156319" ignored="false" />
-    <file path="$PROJECT_DIR$/../databaseManagement/src/main/resources/db.changelog-master.xml" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370953727744" ignored="false" />
-    <file path="/db.changelog-master.xml" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371539828752" ignored="false" />
-    <file path="$PROJECT_DIR$/../databaseManagement/src/main/resources/db.changelog-storedProcs.xml" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370954201432" ignored="false" />
-    <file path="/db.changelog-storedProcs.xml" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370954185547" ignored="false" />
-    <file path="$PROJECT_DIR$/../databaseManagement/src/main/resources/db.changelog.xml" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1370953341965" ignored="false" />
-    <file path="/ReplaceTempWithQueryBase.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371125902700" ignored="false" />
-    <file path="/ReplaceTempWithQueryBaseTest.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371127740563" ignored="false" />
-    <file path="/ReplaceTempWithQueryRefactored.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371129134844" ignored="false" />
-    <file path="/IntroduceExplainVariable.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371456415174" ignored="false" />
-    <file path="/IntroduceExplainVariableRefactoredTest.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371455409099" ignored="false" />
-    <file path="/IntroduceExplainVariableRefactored.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371456219627" ignored="false" />
-    <file path="$PROJECT_DIR$/../databaseManagementPoc/CreateChangelog.txt" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371473076003" ignored="false" />
-    <file path="/CreateChangelog.txt" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371472916549" ignored="false" />
-    <file path="$PROJECT_DIR$/../databaseManagementPoc/temp.sql" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371474140074" ignored="false" />
-    <file path="$PROJECT_DIR$/../databaseManagementPoc/src/main/resources/db.changelog-master.sql" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371473875451" ignored="false" />
-    <file path="$PROJECT_DIR$/../databaseManagementPoc/src/main/java/changeSetSplitter.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371479108316" ignored="false" />
-    <file path="/changeSetSplitter.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371479009592" ignored="false" />
-    <file path="$PROJECT_DIR$/../databaseManagementPoc/src/main/resources/db.changelog-master.xml" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371539832342" ignored="false" />
-    <file path="$PROJECT_DIR$/../databaseManagementPoc/src/main/resources/db.changelog.schema_AZIENDA.sql" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371478907850" ignored="false" />
-    <file path="$PROJECT_DIR$/../databaseManagementPoc/src/main/resources/db.changelog.schema_TIPO_UTILIZZO.sql" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371479594804" ignored="false" />
-    <file path="$PROJECT_DIR$/../databaseManagementPoc/src/main/resources/db.changelog-storedProcs.sql" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371480086667" ignored="false" />
-    <file path="$PROJECT_DIR$/../databaseManagementPoc/src/main/resources/db.changelog-storedProcs_loadAllFromTargaPdl.sql" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371482004506" ignored="false" />
-    <file path="/db.changelog-storedProcs_loadAllFromTargaPdl.sql" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371481934262" ignored="false" />
-    <file path="$PROJECT_DIR$/../databaseManagementPoc/src/main/resources/db.dataloader.sql" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371539976939" ignored="false" />
-    <file path="$PROJECT_DIR$/../databaseManagementPoc/src/main/java/ChangeSetSplitter.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371554844968" ignored="false" />
-    <file path="/ChangeSetSplitter.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371541143880" ignored="false" />
-    <file path="/a.dummy" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371541651246" ignored="false" />
-    <file path="/SplitTemporaryVarBase.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371555432187" ignored="false" />
-    <file path="/Account.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371563415278" ignored="false" />
-    <file path="/AccountTest.java" changelist="01ae5a70-bf8a-45d2-ade0-0e937aa2aeec" time="1371563583705" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +124,7 @@
       <file leaf-file-name="IntroduceExplainVariable.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/introduceExplainVariable/IntroduceExplainVariable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="61" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
+            <state line="18" column="61" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="558">
               <folding />
             </state>
           </provider>
@@ -189,7 +133,7 @@
       <file leaf-file-name="SplitTemporaryVarBase.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/splitTemporaryVar/SplitTemporaryVarBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
+            <state line="16" column="0" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="666">
               <folding />
             </state>
           </provider>
@@ -198,16 +142,7 @@
       <file leaf-file-name="Account.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/methodObject/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gamma.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/methodObject/Gamma.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
+            <state line="8" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="558">
               <folding />
             </state>
           </provider>
@@ -216,7 +151,7 @@
       <file leaf-file-name="AccountRefactored.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/methodObject/after/AccountRefactored.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="143" selection-end="143" vertical-scroll-proportion="0.20373514">
+            <state line="8" column="13" selection-start="143" selection-end="143" vertical-scroll-proportion="3.3488371" vertical-offset="0" max-vertical-offset="396">
               <folding />
             </state>
           </provider>
@@ -225,7 +160,7 @@
       <file leaf-file-name="IntroduceExplainVariableRefactored.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/introduceExplainVariable/after/IntroduceExplainVariableRefactored.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="61" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
+            <state line="26" column="61" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="702">
               <folding />
             </state>
           </provider>
@@ -234,7 +169,7 @@
       <file leaf-file-name="ReplaceTempWithQueryBaseTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/test/java/org/talamona/replacetempQuery/ReplaceTempWithQueryBaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="5" selection-start="300" selection-end="852" vertical-scroll-proportion="0.0">
+            <state line="28" column="5" selection-start="300" selection-end="852" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="648">
               <folding />
             </state>
           </provider>
@@ -243,7 +178,7 @@
       <file leaf-file-name="ReplaceTempWithQueryRefactored.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/replacetempQuery/after/ReplaceTempWithQueryRefactored.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="69" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
+            <state line="28" column="69" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="756">
               <folding />
             </state>
           </provider>
@@ -289,7 +224,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$USER_HOME$/applications/apache-maven-3.0.4" />
+        <option name="mavenHome" value="$M2_REPO$" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -341,10 +276,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-4" />
-    <option name="width" value="1217" />
-    <option name="height" value="805" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1215" />
+    <option name="height" value="776" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -372,7 +307,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -424,6 +359,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MockupRoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MockupRoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fowlerRefactoringMockup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="talamona" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -783,36 +748,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="talamona" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MockupRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MockupRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fowlerRefactoringMockup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -955,7 +890,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1165,7 +1100,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
@@ -1201,6 +1136,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1226,19 +1174,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1328,12 +1263,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1217" height="805" extended-state="6" />
+    <frame x="65" y="24" width="1215" height="776" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.82481754" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39878234" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5004277" order="10" side_tool="true" content_ui="tabs" />
@@ -1343,9 +1280,11 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24978614" sideWeight="0.6788432" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29683492" sideWeight="0.646434" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34816083" sideWeight="0.64687973" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3478261" sideWeight="0.64687973" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35190615" sideWeight="0.49957228" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724506" sideWeight="0.49957228" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325723" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1353,62 +1292,18 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39878234" sideWeight="0.49957228" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
-      <value>
-        <are-packages-shown value="false" />
-        <are-modules-shown value="false" />
-        <flatten-packages value="false" />
-        <is-autoscroll-to-source value="false" />
-      </value>
+      <TodoPanelSettings />
     </option>
-    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
-    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
-    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
-    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
-    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
-    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
-    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
-    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
-    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
-    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
-    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
-    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
-    <option name="ACTIVE_VCS_NAME" />
-    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
-    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
-    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
-    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1418,42 +1313,91 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/introduceExplainVariable/IntroduceExplainVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="61" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="558">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/splitTemporaryVar/SplitTemporaryVarBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/methodObject/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="558">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/methodObject/after/AccountRefactored.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/introduceExplainVariable/after/IntroduceExplainVariableRefactored.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="61" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/test/java/org/talamona/replacetempQuery/ReplaceTempWithQueryBaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="5" selection-start="300" selection-end="852" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="648">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/replacetempQuery/after/ReplaceTempWithQueryRefactored.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="69" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="756">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/test/java/org/talamona/conditionals/polymorphism/after/EmployeeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
+        <state line="10" column="13" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/test/java/org/talamona/extractmethod/BaseExampleClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="4" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
+        <state line="23" column="4" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/test/java/org/talamona/conditionals/decompose/DecomposeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="340" selection-end="340" vertical-scroll-proportion="-0.19607843">
+        <state line="14" column="13" selection-start="340" selection-end="340" vertical-scroll-proportion="-0.19607843" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/test/java/org/talamona/conditionals/guardclauses/ConditionalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="54" selection-start="880" selection-end="912" vertical-scroll-proportion="0.5718954">
+        <state line="37" column="54" selection-start="880" selection-end="912" vertical-scroll-proportion="0.5718954" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/chapter1/refactor2/MovieRental.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" />
+        <state line="8" column="13" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/test/java/org/talamona/replacetempQuery/after/ReplaceTempWithQueryRefactoredTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="808" selection-end="808" vertical-scroll-proportion="0.6553398">
+        <state line="27" column="0" selection-start="808" selection-end="808" vertical-scroll-proportion="0.6553398" vertical-offset="0" max-vertical-offset="0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1462,7 +1406,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/test/java/org/talamona/introduceExplainVariable/IntroduceExplainVariableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="372" selection-end="927" vertical-scroll-proportion="0.0">
+        <state line="31" column="0" selection-start="372" selection-end="927" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1471,7 +1415,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/test/java/org/talamona/introduceExplainVariable/after/IntroduceExplainVariableRefactoredTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="87" selection-start="872" selection-end="872" vertical-scroll-proportion="0.53367877">
+        <state line="26" column="87" selection-start="872" selection-end="872" vertical-scroll-proportion="0.53367877" vertical-offset="0" max-vertical-offset="0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1480,56 +1424,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/test/java/org/talamona/replacetempQuery/ReplaceTempWithQueryBaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="5" selection-start="300" selection-end="852" vertical-scroll-proportion="0.0">
+        <state line="28" column="5" selection-start="300" selection-end="852" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/replacetempQuery/after/ReplaceTempWithQueryRefactored.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="69" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
+        <state line="28" column="69" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/introduceExplainVariable/after/IntroduceExplainVariableRefactored.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="61" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
+        <state line="26" column="61" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/introduceExplainVariable/IntroduceExplainVariable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="61" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
+        <state line="18" column="61" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/splitTemporaryVar/SplitTemporaryVarBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
+        <state line="16" column="0" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/methodObject/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/methodObject/Gamma.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
+        <state line="8" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fowlerRefactoringMockup/src/main/java/org/talamona/methodObject/after/AccountRefactored.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="143" selection-end="143" vertical-scroll-proportion="0.20373514">
+        <state line="8" column="13" selection-start="143" selection-end="143" vertical-scroll-proportion="3.3488371" vertical-offset="0" max-vertical-offset="396">
           <folding />
         </state>
       </provider>

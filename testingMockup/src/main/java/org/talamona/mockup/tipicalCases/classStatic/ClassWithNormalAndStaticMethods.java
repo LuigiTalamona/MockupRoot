@@ -32,7 +32,7 @@ public class ClassWithNormalAndStaticMethods {
     }
 
     public static boolean isNotZero(Map<String, Object> params){
-        throw new RuntimeException("isNotZero TBI");
+        throw new RuntimeException("isNotZero To Be Implemented");
     }
 
 

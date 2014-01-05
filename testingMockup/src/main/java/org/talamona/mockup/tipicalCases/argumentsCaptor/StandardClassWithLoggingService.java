@@ -1,5 +1,7 @@
 package org.talamona.mockup.tipicalCases.argumentsCaptor;
 
+import org.apache.log4j.Logger;
+
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -13,23 +15,19 @@ import java.util.Locale;
  */
 public class StandardClassWithLoggingService {
 
-    private static org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger(StandardClassWithLoggingService.class);
-
+    private static Logger logger = Logger.getLogger(StandardClassWithLoggingService.class);
     public StandardClassWithLoggingService(){
-
     }
     public boolean doSomethingWithNoparamsWritingLogs(){
-        String dateFormatedd = getFormattedDate();
+        String dateFormatedd = this.getFormattedDate();
         logger.info("info log wrote on " + dateFormatedd + " by " + this.getClass().getCanonicalName());
         logger.warn("warning log wrote on " + dateFormatedd + " by " + this.getClass().getCanonicalName());
         logger.error("error log wrote on " + dateFormatedd + " by " + this.getClass().getCanonicalName());
         logger.debug("debug log wrote on " + dateFormatedd + " by " + this.getClass().getCanonicalName());
         return true;
     }
-
-
     public boolean doSomethingWithParamsWritingLogs(String string){
-        String dateFormatedd = getFormattedDate();
+        String dateFormatedd = this.getFormattedDate();
         logger.info("info log wrote on " + dateFormatedd + this.prepareLogMessage(string));
         logger.warn("info log wrote on " + dateFormatedd + this.prepareLogMessage(string));
         logger.error("info log wrote on " + dateFormatedd + this.prepareLogMessage(string));

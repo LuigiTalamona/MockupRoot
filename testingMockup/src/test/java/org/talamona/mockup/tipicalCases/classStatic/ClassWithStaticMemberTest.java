@@ -1,14 +1,15 @@
 package org.talamona.mockup.tipicalCases.classStatic;
 
-import org.mockito.Mockito;
-import org.powermock.api.mockito.PowerMockito;
-import org.powermock.core.classloader.annotations.PrepareForTest;
-import org.powermock.modules.testng.PowerMockTestCase;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
-
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.when;
+import static org.powermock.api.mockito.PowerMockito.mockStatic;
 import static org.powermock.api.mockito.PowerMockito.verifyStatic;
 import static org.testng.Assert.assertEquals;
+
+import org.powermock.modules.testng.PowerMockTestCase;
+import org.powermock.core.classloader.annotations.PrepareForTest;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 
 /**
  * Created with IntelliJ IDEA.
@@ -19,34 +20,25 @@ import static org.testng.Assert.assertEquals;
 
 @PrepareForTest(StaticClass.class)
 
-public class ClassWithStaticMemberTest extends PowerMockTestCase{
+public class ClassWithStaticMemberTest extends PowerMockTestCase {
+    private final long TEST_VALUE = 3L;
     private ClassWithStaticMember sut;
-    
-/* Described in documentation, but it doesn't work - It's necessary to derive class from PowerMockTestCase
- * Is there any my mistake?
- *       
-    @ObjectFactory
-	public IObjectFactory getObjectFactory() {
-		return new org.powermock.modules.testng.PowerMockObjectFactory();
-	}
-*/    
 
     @BeforeMethod
     public void setUp() throws Exception {
         sut = new ClassWithStaticMember();
     }
-
     @Test
     public void testSampleMethod() throws Exception {
-        PowerMockito.mockStatic(StaticClass.class);
-        Mockito.when(StaticClass.createNumber()).thenReturn(3L);
+        mockStatic(StaticClass.class);
+        when(StaticClass.createNumber()).thenReturn(TEST_VALUE);
 
-        String expected = Long.toString(3l);
+        String expected = Long.toString(TEST_VALUE);
         String actual = sut.sampleMethod();
         assertEquals(actual, expected);
 
         // Optionally verify that the static method was actually called
-        verifyStatic(Mockito.times(1));
+        verifyStatic(times(1));
         StaticClass.createNumber();
 
     }
